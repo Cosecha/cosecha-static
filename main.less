@@ -50,13 +50,46 @@ body{
 
 	& > .side-nav{
 		background-color: #25529f;
-		width: 300px;
-		height: 100px;
+		color: #fff;
+		width: 250px;
+		height: 100%;
 		position:absolute;
 		top:0px;
-		left:-300px;
+		left:-250px;
+		padding:0px;
 		&.active{
 			left:0px;
+		}
+		& > .header{
+			background: #17428e;
+			border-bottom: 1px solid #03245c;
+			min-height: 50px;
+			& > .account-box{
+				& > .info{
+					clear:both;
+					& > .thumb{
+						float:left;
+					}
+					& > .data{
+						& > h4{
+							margin-left: 10px;
+							padding: 0px;
+							margin: 0px;
+						}
+					}
+				}
+			}
+		}
+
+		& > .rooms-list{
+			clear: both;
+			margin-top: 20px;
+			& > .wrapper{
+				margin: 15px;
+				& > ul > li{
+					list-style: none;
+				}
+			}
 		}
 	}
 }

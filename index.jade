@@ -11,4 +11,39 @@
 				h1 Room Title
 			.content
 				| content
-	.side-nav
+	aside.side-nav
+		header.header
+			.account-box
+				.info.status-online
+					.thumb(data-status="online")
+						img(src="http://placehold.it/40x40")
+					.data
+						h4 celso.mireles
+				nav.options.animated-hidden
+		.rooms-list
+			.wrapper
+				h3.add-room.active
+					| CHANNELS 
+					i.fa.fa-plus
+				ul
+					li.link-room
+						a.open-room
+							i.fa.fa-hashtag
+							span.name  general
+							span.opt
+					li.link-room
+						a
+							i.fa.fa-hashtag
+							span.name  trainers
+							span.opt
+					li.link-room
+						a
+							i.fa.fa-hashtag
+							span.name  artists
+							span.opt
+					li.link-room
+						a
+							i.fa.fa-hashtag
+							span.name  arizona
+							span.opt
+		footer.footer

@@ -9,7 +9,7 @@ $(document).ready(function(){
 			console.log('Toggle On');
 			//sideNav.addClass('active');
 			cosechaTech.animate({
-				left: '300px'
+				left: '250px'
 			});
 		}else {
 			console.log('Toggle Off');
